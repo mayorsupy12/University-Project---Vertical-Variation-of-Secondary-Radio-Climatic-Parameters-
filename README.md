@@ -90,15 +90,22 @@ Anomalous conditions
 #### A Gradio-based interface and deployment script was prepared to host this model on Hugging Face Spaces, allowing user interaction via a browser.
 #### https://huggingface.co/spaces/mayorsupy/Radio-Refractivity_Predictor
 
-📂 Repository Contents (Suggested Structure)
-├── dataset/
-├── jupyter_notebooks.ipyn/
+📂 Repository Contents
+
+├── dataset
+
+├── jupyter_notebooks.ipyn
+
 ├── models/
 │   ├── regressor_model.joblib
 │   ├── regressor_model.onnx
-├── plots/
+
+├── plots
+
 ├── deploy_to_hf.py
+
 ├── app.py or gradio_app.py
+
 └── README.md
 
 ### Summary
